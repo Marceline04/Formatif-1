@@ -10,6 +10,7 @@ print("Il faut pédaler pour me faire avancer. On peut monter sur ma selle. J'ai
 print("pourquoi le poulet at-il traversé la route")
 #pour aller de l'autre Cote 
 print("Combien de pays y a t'il en Afrique")
+print("a. 54")
 #54
 #90
 #63
@@ -24,3 +25,9 @@ if choix == "a":
   print("non, ce n'est pas l'anglais")
 elif choix == "b":
   print("oui!!!! bravo")
+  choix= input().lower()
+  if choix == "63"
+  print(non,c'est pas 54)
+  elif choix =="oui!!! bonne reponse" 
+
+  #Merci!!! d'avoir jouer a la prochaine.
