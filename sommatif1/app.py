@@ -28,7 +28,6 @@ print ("90")
 print ("63")
 print ("33")
 print("   (tape une réponse et tape sur Enter)") # message d'aide
-
 # attendre et garder la réponse -> input()
 reponse = input()
 # vérifier la réponse : if, elif, else (conditions)
@@ -43,7 +42,6 @@ elif reponse == "33":
 else:
     print(reponse, "n'était pas un choix valide")
 
-
 # afficher la question
 print("quel langue est la plus parler au monnde")
 # afficher ces choix :
@@ -53,18 +51,23 @@ print ("c. Francais")
 print ("d. L'espagnol")
 print("   (tape la lettre de la réponse et tape sur Enter)") # message d'aide
 
-#attendre et garder la reponse -> input()
+# attendre et garder la réponse -> input()
 reponse = input()
-# verifier la reponse : if, elif, else (conditions)
-if reponse == "L'espagnol":
- print ("faux. la bonne reponse c'est Mandarin!")
-  elif reponse == "Francais":
-    print (faux. la bonne reponse c'est Mandarin)
-    elif reponse == "Mandarin":
-    print ("Vrai! Bravo")
-    elif reponse == "L'anglais":
-    print("faux. Labonne reponse c'est Mandarin")
+# vérifier la réponse : if, elif, else (conditions)
+if reponse == "Anglais":
+    print("faux. la bonne réponse est Mandarin!")
+elif reponse == "L'espagnole":
+    print("faux. la bonne réponse est Mandarin!")
+elif reponse ==  "Mandarin":
+    print("vrai! bravo!!!")
+elif reponse ==  "Francais":
+    print("faux. la bonne réponse est Mandarin!")
+else:
+    print(reponse, "n'était pas un choix valide")
 
 # ajouter une autre question
-Print ("Avez vous aimer")
+print ("Avez vous aimer")
+print("   (taper une reponse et tape sur Entrer)") # message d'aide
+input() # on attend le Enter mais ne garder pas ce que l'utuliatuer inscrit
+
 #afficher -> "Merci!!! d'avoir jouer a la prochaine."
