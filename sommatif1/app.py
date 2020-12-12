@@ -10,12 +10,16 @@ print("le sucrier") #afficher ça peu importe -> "le sucrier"
 print()
 
 print("Il faut pédaler pour me faire avancer. On peut monter sur ma selle. J'ai un gidon et deux roues") 
-#attendre -> input()
-#afficher ça peu importe -> "vélo"
+print("   (taper une reponse et tape sur Entrer)") # message d'aide
+input() # on attend le Enter mais ne garder pas ce que l'utuliatuer inscrit
+print("le velo") #afficher ca peu importe -> "Le velo"
+print()
 
 print("pourquoi le poulet at-il traversé la route")
-#attendre -> input()
-#afficher ça peu importe -> pour aller de l'autre Cote 
+print("   (taper une reponse et tape sur Entrer)") # message d'aide
+input() # on attend le Enter mais ne garder pas ce que l'utuliatuer inscrit
+print("pour aller de l'autre cote") #afficher ca peu importe -> "pour aller de l'autre cote"
+print()
 
 print("Combien de pays y a t'il en Afrique")
 # afficher ces choix :
@@ -49,9 +53,18 @@ print ("c. Francais")
 print ("d. L'espagnol")
 print("   (tape la lettre de la réponse et tape sur Enter)") # message d'aide
 
-# attendre la réponse -> input()
-# vérifier la réponse : if, elif, else (conditions)
+#attendre et garder la reponse -> input()
+reponse = input()
+# verifier la reponse : if, elif, else (conditions)
+if reponse == "L'espagnol":
+ print ("faux. la bonne reponse c'est Mandarin!")
+  elif reponse == "Francais":
+    print (faux. la bonne reponse c'est Mandarin)
+    elif reponse == "Mandarin":
+    print ("Vrai! Bravo")
+    elif reponse == "L'anglais":
+    print("faux. Labonne reponse c'est Mandarin")
 
 # ajouter une autre question
-
+Print ("Avez vous aimer")
 #afficher -> "Merci!!! d'avoir jouer a la prochaine."
