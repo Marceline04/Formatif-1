@@ -6,11 +6,11 @@ WIDTH = 600
 HEIGHT = 300
 bird = Actor("bird.jpg")
 bird.pos = (WIDTH, HEIGHT / 2)
-speed = 1 
+speed = 2
 
 
 def draw():
-    screen.fill("red")
+    screen.fill("blue")
     bird.draw()
 
 
@@ -21,9 +21,7 @@ def on_mouse_down(pos):
 
 
 def update():
-    angle_radians = math.radians(bird.angle)
-    bird.x += speed * round(math.cos(angle_radians))
-    bird.y += speed * -round(math.sin(angle_radians))
+   bird.x = bird.x - speed
 
 
 pgzrun.go()
