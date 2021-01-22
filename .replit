@@ -1,2 +1,2 @@
 language = "python3"
-run = "python sommatif1/app.py"
+run = "python pgzero/sommatif.py"
