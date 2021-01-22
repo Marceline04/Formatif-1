@@ -1,5 +1,4 @@
 import pgzrun
-import math
 
 
 WIDTH = 600
