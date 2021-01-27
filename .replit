@@ -1,2 +1,2 @@
 language = "python3"
-run = "python sommatif/projet.py"
+run = "python sommatif/jeux.py"

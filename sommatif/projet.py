@@ -4,8 +4,8 @@ images = [ ]
 img1= Actor("Driving",pos= (x,y))
 images.append(img1)
 img2= Actor (shopping)
-images.append(Actor("Sleeping.JPG", pos = (x, y))
-images.append(Actor("Shopping.jpeg", pos = (x, y))
+images.append(Actor("Sleeping.JPG", pos = (X,y))
+images.append(Actor("Shopping.jpeg", pos = (X,y))
 images.append(Actor("End.JPG", pos = (x, y))
 
 img1.dx = 2
